@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import React, {useState, useEffect} from "react";
+import bg from './images/background2.webp'
+import bg2 from './images/battle.jpg'
 function App() {
+  const [start,setStart] = useState(false);
+  useEffect(()=>{
+    console.log(document.body)
+    document.body.style.backgroundImage= `url('${bg}')`;
+    const changeBackground = (e)=>{
+      console.log(document.body)
+      document.body.style.backgroundImage = `url('${bg2}')`
+      const title = document.querySelector('.title')
+      setStart(true)
+      title.remove()
+      e.target.remove()
+    }
+    const button = document.querySelector('#start')
+    button.addEventListener("click",changeBackground)
+    
+    
+  },[])
+  
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="title">Memory Card with Mario RPG</h1>
+      <button id="start">Play Game</button>
+      <div className='game'>
+        
+      </div>
     </div>
   );
 }

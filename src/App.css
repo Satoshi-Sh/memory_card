@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'Mario';
+  src: local('Mario'), url('./fonts/super_mario_rpg_font.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
+  font-family:Mario;
+  color:yellow;
 }
 
 .App-logo {
