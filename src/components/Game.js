@@ -25,11 +25,9 @@ function shuffleArray(array,characters) {
   }
   let count=0;
   (array.slice(0,6)).forEach(c=>{
-    console.log(c.name)
   if (characters[c.name])
   count ++
   })
-  console.log(count)
   console.log(characters)
   if (count==6){
     return true
@@ -88,7 +86,6 @@ function shuffleArray(array,characters) {
    
 
     const incrementScore = (e) =>{
-        console.log(e.target)
         if (characters[e.target.id])  {   
         console.log('Game over..')
         if (score>highscore){
@@ -117,7 +114,7 @@ function shuffleArray(array,characters) {
           'Sky Troopa':false,
           'Yoshi':false,
         })
-    } 
+      }
         else{
           setScore(score+1)
           let newArray ={...characters}
@@ -125,6 +122,32 @@ function shuffleArray(array,characters) {
           setCharacters(newArray)
     }
   }
+  function reset(){
+       setScore(0)
+       setHighScore(0)
+       setCharacters({
+        'Baby Fat':false,
+        'Belome':false,
+        'Big Boo':false,
+        'Birdo':false,
+        'Bob Omb':false,
+        'Boshi':false,
+        'Bowser':false,
+        'Dodo':false,
+        'Frogfucius':false,
+        'Geno':false,
+        'Goomba':false,
+        'Heavy Troopa':false,
+        'Magikoopa':false,
+        'Mallow':false,
+        'Mario':false,
+        'Princess Toadstool':false,
+        'Sergeant Flutter':false,
+        'Shy Guy':false,
+        'Sky Troopa':false,
+        'Yoshi':false,
+      })
+    }
 
     const cards = ()=> {
       if (props.start){
@@ -133,6 +156,7 @@ function shuffleArray(array,characters) {
       if (score==20){
         content = <div>
           <h1>Congratulations!! You cleared the game!</h1>
+          <button className='reset' onClick={reset}>Play Again</button>
         </div>
       }  
       else { 
