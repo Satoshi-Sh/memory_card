@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/memory_card/static/css/main.d45a0073.css",
+    "main.js": "/memory_card/static/js/main.94a7ba82.js",
+    "static/js/787.d6a8b40f.chunk.js": "/memory_card/static/js/787.d6a8b40f.chunk.js",
+    "static/media/battle.jpg": "/memory_card/static/media/battle.3ac823ec3243bd606733.jpg",
+    "static/media/background2.webp": "/memory_card/static/media/background2.89a63cca77dd492112c7.webp",
+    "static/media/super_mario_rpg_font.ttf": "/memory_card/static/media/super_mario_rpg_font.ca5489b54195f9c8474b.ttf",
+    "static/media/belome.webp": "/memory_card/static/media/belome.c7815c67c9b2e8d5564c.webp",
+    "static/media/goomba.webp": "/memory_card/static/media/goomba.5de8254ae44dfeb62a7e.webp",
+    "static/media/mallow.webp": "/memory_card/static/media/mallow.33e3fba7726f610ee830.webp",
+    "static/media/baby_fat.webp": "/memory_card/static/media/baby_fat.3ce05e0e5c8cabbfa06b.webp",
+    "static/media/geno.webp": "/memory_card/static/media/geno.c7af86f532e90868909a.webp",
+    "static/media/heavy_troopa.webp": "/memory_card/static/media/heavy_troopa.a4d3a3e92c7330ccb27c.webp",
+    "static/media/birdo.webp": "/memory_card/static/media/birdo.f68138421b27ad712812.webp",
+    "static/media/bob_omb.webp": "/memory_card/static/media/bob_omb.2e2d076b514d90c6fc70.webp",
+    "static/media/mario.webp": "/memory_card/static/media/mario.44244acb68672b19cef4.webp",
+    "static/media/magikoopa.webp": "/memory_card/static/media/magikoopa.572e7be42358d222834e.webp",
+    "static/media/big_boo.webp": "/memory_card/static/media/big_boo.96f44a868fc8c82d89d7.webp",
+    "static/media/bowser.webp": "/memory_card/static/media/bowser.9ecf99bc0d90283f9e4a.webp",
+    "static/media/sergeant_flutter.webp": "/memory_card/static/media/sergeant_flutter.2340edb093672eccd186.webp",
+    "static/media/princess_toadstool.webp": "/memory_card/static/media/princess_toadstool.02498b0f84a2e99724f1.webp",
+    "static/media/yoshi.webp": "/memory_card/static/media/yoshi.50e3829fd4e7b290a5c8.webp",
+    "index.html": "/memory_card/index.html",
+    "main.d45a0073.css.map": "/memory_card/static/css/main.d45a0073.css.map",
+    "main.94a7ba82.js.map": "/memory_card/static/js/main.94a7ba82.js.map",
+    "787.d6a8b40f.chunk.js.map": "/memory_card/static/js/787.d6a8b40f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d45a0073.css",
+    "static/js/main.94a7ba82.js"
+  ]
+}
