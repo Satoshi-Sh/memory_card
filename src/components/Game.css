@@ -1,0 +1,43 @@
+img {
+    width:100px;
+    height:100px;
+    pointer-events: none;
+}
+
+.board{
+    height:100vh;
+}
+
+.scores {
+    color:white;
+    text-decoration: underline red 2px;
+}
+
+.game {
+    height:80vh;
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:100px;
+    gap:20px;
+}
+
+.name {
+    color:black;
+    pointer-events: none;
+}
+
+.card{
+    width:200px;
+    height:200px;
+    cursor:pointer;
+    background-color:antiquewhite;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    pointer-events:auto;
+
+}
