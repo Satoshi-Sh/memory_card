@@ -3,6 +3,7 @@
 This is an assignment of The Odin Project to practice React hook. 
 Featured with Mario RPG. 
 
+You can play the game here 'https://satoshi-sh.github.io/memory_card/'
 
 Image and font Credit List:
 
